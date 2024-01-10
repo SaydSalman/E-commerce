@@ -18,7 +18,7 @@ function Footer() {
                 <div className="col-lg-3 ">
                     <h4 className='ms-3 text-center' style={{height:'30px'}}>Links</h4>
                     <ul>
-                        <li className='text-center'>Home</li>
+                        <Link style={{textDecoration:'none'}} to={'/'}><li  className='text-center '>Home</li></Link>
                         <li className='text-center'>Cart</li>
                         <li className='text-center'>Wishlist</li>
                     </ul>
